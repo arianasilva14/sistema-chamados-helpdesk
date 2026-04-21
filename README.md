@@ -1,5 +1,4 @@
-# sistema-chamados-helpdesk
-# 💻 Sistema de Chamados (Help Desk)
+# 💻 Sistema de Help Desk com frontend e backend (Node.js) para gerenciamento de chamados
 
 Projeto simples de um sistema de abertura e gerenciamento de chamados, desenvolvido com HTML, CSS e JavaScript.  
 
