@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Help Desk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sistemas de Chamados</h1>
+    <div class="container">
+        <div class="form">
+            <input id="nome" placeholder="Seu nome">
+        <input id="problema" placeholder="Descreva o problema">
+        </div>
+        
+        <select id="prioridade">
+            <option>Baixa</option>
+            <option>Média</option>
+            <option>Alta</option>
+        </select>
+
+        <button onclick="criarChamado()">Abrir Chamado</button>
+
+        <h2>Chamados</h2>
+    <div id="listaChamados"></div>
+
+    </div>
+
+     <script src="script.js"></script>
+    
+</body>
+</html>
